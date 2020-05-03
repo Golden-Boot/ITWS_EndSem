@@ -1,0 +1,86 @@
+body{
+	background-image: "../Images/Ballon_dor.jpeg";
+	background-size: cover;
+	background-position: fixed;
+	/*background-color: powderblue;*/
+	width: 60%;
+	margin:auto;
+}
+
+table#nav_bar{
+	color: white;
+	font-family: sans-serif;
+	background-color: rgb(40,100,255);
+	width: 100%;
+	border-collapse: collapse; 
+	text-align: center;
+}
+
+table#nav_bar td{
+	height: 30px;   		
+}
+table#nav_bar td:nth-child(odd){
+	padding: 10px;	
+}
+
+table#main{
+	width:100%;
+	border-spacing: 20px;
+	/*border: 1px solid black;*/
+	border-collapse: collapse; 
+}
+
+table#main td{
+	padding: 30px;
+	/*border: 1px solid black;*/
+	border-collapse: collapse;
+}	
+
+hr{
+	border-top: 1px solid grey;
+	margin-bottom: 10px;
+}
+
+#text1	{
+	color: rgb(255,100,100);
+	font-family: monospace;
+	font-size: 170%;
+
+}
+
+
+form#form1{
+	background-color: rgb(240,240,240);
+	width: 100%;
+	padding: 10px;
+	/*line-height: 0px;*/
+}
+
+.heading{
+	font-weight: bold;
+	color: purple;
+	font-family: sans-serif;
+	font-size: 130%;
+	margin-bottom:10px; 
+}
+
+.quotes{
+	background-color: rgb(240,240,240);
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+#jack_pic{
+	float:left;
+	width: 150px;
+	height:150px;
+	margin-right: 5px;
+}
+
+#ship_pic{
+	width: 150px;
+	height:200px;
+	margin-left: 50px; 
+	margin-bottom: 10px;	
+}
+
